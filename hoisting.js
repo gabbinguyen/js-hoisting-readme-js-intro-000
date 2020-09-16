@@ -10,10 +10,10 @@ function callMe() {
 
 function crazy() {
   // fix the code in here:
-  thisIsCrazy();
+  callMe();
 
-  var thisIsCrazy = function callMe(){
-    console.log(lyric)
+  var thisIsCrazy = function (){
+    console.log("hey!!!")
   }
 }
 
